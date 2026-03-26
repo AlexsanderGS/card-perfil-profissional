@@ -1,0 +1,55 @@
+/* Regular */
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/inter/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/inter/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/inter/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Cores de backgroud */
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #ffffff;
+  /* Cores de texto */
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #4b4b4b;
+  /* Botões */
+  --primary-button-background-color: #0a66c2;
+  --secondary-button-background-color: #333333;
+  --primary-button-text-color: #ffffff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--primary-background-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-content {
+  border: solid;
+  border-radius: 30px;
+  padding: 1rem;
+}
