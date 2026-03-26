@@ -1,0 +1,54 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-tema {
+  align-self: flex-end;
+  width: 60px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  background-color: var(--primary-background-color);
+}
+
+.toggle-tema img {
+  width: 100%;
+  height: auto;
+}
+
+.header-content img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.header-content .profile-name {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 5px;
+}
+
+.header-content .profession-title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.card-description .about-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 15px;
+}

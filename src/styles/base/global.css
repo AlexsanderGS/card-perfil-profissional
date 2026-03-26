@@ -30,7 +30,7 @@
   --primary-background-color: #e5e5e5;
   --secondary-background-color: #ffffff;
   /* Cores de texto */
-  --primary-text-color: #ffffff;
+  --primary-text-color: #000000;
   --secondary-text-color: #4b4b4b;
   /* Botões */
   --primary-button-background-color: #0a66c2;
@@ -52,4 +52,5 @@ body {
   border: solid;
   border-radius: 30px;
   padding: 1rem;
+  background-color: var(--secondary-background-color);
 }
