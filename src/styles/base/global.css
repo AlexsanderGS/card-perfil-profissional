@@ -38,6 +38,12 @@
   --primary-button-text-color: #ffffff;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--primary-background-color);
@@ -49,6 +55,8 @@ body {
 }
 
 .main-content {
+  width: 100%;
+  max-width: 320px;
   border: solid;
   border-radius: 30px;
   padding: 1rem;

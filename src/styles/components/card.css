@@ -1,29 +1,31 @@
 .card-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 
 .toggle-tema {
   align-self: flex-end;
-  width: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 100px;
-  margin-bottom: 10px;
+
+  cursor: pointer;
   background-color: var(--primary-background-color);
 }
 
 .toggle-tema img {
-  width: 100%;
+  width: 30px;
   height: auto;
 }
 
 .header-content img {
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  max-width: 260px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 10px;
 }
 
 .header-content .profile-name {
@@ -32,23 +34,67 @@
   font-size: 32px;
   text-align: center;
   color: var(--primary-text-color);
-  margin-bottom: 5px;
 }
 
 .header-content .profession-title {
   font-family: "Inter";
   font-weight: 400;
   font-size: 17px;
+  padding: 10px;
   text-align: center;
   color: var(--secondary-text-color);
-  margin-bottom: 20px;
 }
 
 .card-description .about-text {
   font-family: "Inter";
   font-weight: 400;
   font-size: 17px;
-  text-align: center;
+  inline-size: 200px;
   color: var(--secondary-text-color);
-  margin-bottom: 15px;
+
+  display: block;
+  width: 100%;
+}
+
+.card-technologies ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  gap: 20px;
+}
+
+.card-links {
+  display: flex;
+  gap: 15px;
+}
+
+.card-links a {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.card-links a.linkedin {
+  gap: 10px;
+  color: var(--primary-button-text-color);
+  background-color: var(--primary-button-background-color);
+}
+
+.card-links a.github {
+  gap: 10px;
+  color: var(--primary-button-text-color);
+  background-color: var(--secondary-button-background-color);
+}
+
+.card-links a img {
+  width: 26px;
+  height: 26px;
 }
