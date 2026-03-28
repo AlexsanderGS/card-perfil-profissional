@@ -50,8 +50,8 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  align-items: flex-start;
+  padding: 3rem 1rem;
 }
 
 .main-content {
@@ -61,4 +61,20 @@ body {
   border-radius: 30px;
   padding: 1rem;
   background-color: var(--secondary-background-color);
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 768px) {
+  .main-content {
+    max-width: 420px;
+    padding: 2rem;
+  }
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1440px) {
+  .main-content {
+    max-width: 560px;
+    padding: 3rem;
+  }
 }

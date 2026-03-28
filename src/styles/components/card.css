@@ -23,9 +23,11 @@
 .header-content img {
   width: 100%;
   max-width: 260px;
+  height: auto;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .header-content .profile-name {
@@ -97,4 +99,68 @@
 .card-links a img {
   width: 26px;
   height: 26px;
+}
+
+/* ===== TABLET ===== */
+@media (min-width: 768px) {
+  .header-content img {
+    max-width: 280px;
+  }
+  .card-description .about-text {
+    text-align: center;
+    font-size: 20px;
+    inline-size: 400px;
+  }
+
+  .card-technologies ul {
+    gap: 30px;
+  }
+
+  .card-links {
+    gap: 30px;
+  }
+
+  .card-links a {
+    min-width: 170px;
+  }
+
+  .card-links a img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1440px) {
+  .header-content img {
+    max-width: 340px;
+  }
+
+  .profile-name {
+    font-size: 36px;
+  }
+
+  .card-description .about-text {
+    text-align: center;
+    font-size: 22px;
+    inline-size: 400px;
+  }
+
+  .card-technologies ul {
+    gap: 45px;
+  }
+
+  .card-links {
+    gap: 40px;
+  }
+
+  .card-links a {
+    min-width: 200px;
+    font-size: 20px;
+  }
+
+  .card-links a img {
+    width: 36px;
+    height: 36px;
+  }
 }
