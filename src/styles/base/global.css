@@ -27,15 +27,21 @@
 
 :root {
   /* Cores de backgroud */
-  --primary-background-color: #e5e5e5;
-  --secondary-background-color: #ffffff;
+  --primary-background-color: #e6e7eb;
+  --secondary-background-color: #f1f2f6;
+
   /* Cores de texto */
-  --primary-text-color: #000000;
-  --secondary-text-color: #4b4b4b;
+  --primary-text-color: #111111;
+  --secondary-text-color: #5a5a5a;
+
   /* Botões */
   --primary-button-background-color: #0a66c2;
-  --secondary-button-background-color: #333333;
+  --secondary-button-background-color: #2f2f2f;
   --primary-button-text-color: #ffffff;
+
+  /* Borda e sombra */
+  --shadow-dark: rgba(0, 0, 0, 0.12);
+  --shadow-light: rgba(255, 255, 255, 0.9);
 }
 
 *,
@@ -57,10 +63,26 @@ body {
 .main-content {
   width: 100%;
   max-width: 320px;
-  border: solid;
-  border-radius: 30px;
-  padding: 1rem;
   background-color: var(--secondary-background-color);
+  border-radius: 28px;
+  padding: 1.5rem;
+
+  /* PROFUNDIDADE */
+  box-shadow:
+    -12px 12px 24px var(--shadow-dark),
+    -24px 24px 24px var(--shadow-dark);
+
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.main-content:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    16px 16px 30px rgba(0, 0, 0, 0.12),
+    -16px -16px 30px rgba(0, 0, 0, 0.12);
 }
 
 /* ===== TABLET ===== */
