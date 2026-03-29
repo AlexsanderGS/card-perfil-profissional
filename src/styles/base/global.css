@@ -27,17 +27,17 @@
 
 :root {
   /* Cores de backgroud */
-  --primary-background-color: #e6e7eb;
-  --secondary-background-color: #f1f2f6;
+  --background-page: #e6e7eb;
+  --background-card: #f1f2f6;
 
   /* Cores de texto */
-  --primary-text-color: #111111;
-  --secondary-text-color: #5a5a5a;
+  --text-primary-color: #111111;
+  --text-secondary-color: #5a5a5a;
 
   /* Botões */
-  --primary-button-background-color: #0a66c2;
-  --secondary-button-background-color: #2f2f2f;
-  --primary-button-text-color: #ffffff;
+  --button-primary-bg: #0a66c2;
+  --button-secondary-bg: #2f2f2f;
+  --button-text-color: #ffffff;
 
   /* Borda e sombra */
   --shadow-dark: rgba(0, 0, 0, 0.12);
@@ -52,7 +52,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: var(--primary-background-color);
+  background-color: var(--background-page);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@ body {
 .main-content {
   width: 100%;
   max-width: 320px;
-  background-color: var(--secondary-background-color);
+  background-color: var(--background-card);
   border-radius: 28px;
   padding: 1.5rem;
 

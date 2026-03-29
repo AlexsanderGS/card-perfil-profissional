@@ -13,7 +13,7 @@
   border-radius: 100px;
 
   cursor: pointer;
-  background-color: var(--secondary-background-color);
+  background-color: var(--background-card);
 
   box-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -44,7 +44,7 @@
   font-size: 32px;
   text-align: center;
   line-height: 1.2;
-  color: var(--primary-text-color);
+  color: var(--text-primary-color);
 }
 
 .header-content .profession-title {
@@ -52,7 +52,7 @@
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
-  color: var(--secondary-text-color);
+  color: var(--text-secondary-color);
 }
 
 .card-description {
@@ -66,7 +66,7 @@
   font-size: 16px;
   line-height: 1.3;
   text-align: center;
-  color: var(--secondary-text-color);
+  color: var(--text-secondary-color);
   max-width: 26ch;
 }
 
@@ -99,14 +99,14 @@
 
 .card-links a.linkedin {
   gap: 10px;
-  color: var(--primary-button-text-color);
-  background-color: var(--primary-button-background-color);
+  color: var(--button-text-color);
+  background-color: var(--button-primary-bg);
 }
 
 .card-links a.github {
   gap: 10px;
-  color: var(--primary-button-text-color);
-  background-color: var(--secondary-button-background-color);
+  color: var(--button-text-color);
+  background-color: var(--button-secondary-bg);
 }
 
 .card-links a img {
