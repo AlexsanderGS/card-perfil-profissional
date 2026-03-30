@@ -4,8 +4,13 @@ Projeto de um card de perfil profissional desenvolvido com foco em prática de H
 
 ## 📸 Preview
 
-<img width="1858" height="957" alt="image" src="https://github.com/user-attachments/assets/41631967-b29e-44e0-9c19-337420aa9f06" />
-<img width="1854" height="955" alt="image" src="https://github.com/user-attachments/assets/a1acf994-ef7a-471a-b904-da096f6c0ecf" />
+<img width="1080" height="768" alt="image" src="https://github.com/user-attachments/assets/41631967-b29e-44e0-9c19-337420aa9f06" />
+<img width="1080" height="768" alt="image" src="https://github.com/user-attachments/assets/a1acf994-ef7a-471a-b904-da096f6c0ecf" />
+
+---
+
+## 🌐 Demo
+[https://card-perfil-profissional.vercel.app](https://card-perfil-profissional.vercel.app)
 
 ---
 
