@@ -41,8 +41,9 @@
   --toggle-bg: #f1f2f6;
 
   /* Borda e sombra */
-  --shadow-dark: rgba(0, 0, 0, 0.12);
+  --shadow-dark: rgba(0, 0, 0, 0.2);
   --shadow-light: rgba(255, 255, 255, 0.9);
+  --toggle-shadow: inset 0 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 body.dark-theme {
@@ -56,8 +57,13 @@ body.dark-theme {
   --text-secondary-color: #b0b0b0;
 
   /* Botões */
-  --button-secondary-bg: #1f1f22;
+  --button-secondary-bg: #161619;
   --toggle-bg: #2f2f33;
+
+  /* Borda e sombra */
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --shadow-light: rgba(255, 255, 255, 0.9);
+  --toggle-shadow: inset 0 0 3px 3px rgba(255, 255, 255, 0.1);
 }
 
 *,
