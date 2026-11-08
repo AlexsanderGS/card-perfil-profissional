@@ -5,7 +5,7 @@ Projeto de um card de perfil profissional desenvolvido com foco em prática de H
 ## 📸 Preview
 
 <img width="1080" height="768" alt="image" src="./src/assets/preview/preview-desktop-white.png" />
-<img width="1080" height="768" alt="image" src="./src/assets/preview/preview-mobile-dark.png" />
+<img width="1080" height="768" alt="image" src="./src/assets/preview/preview-desktop-dark.png" />
 
 ---
 
