@@ -4,12 +4,13 @@ Projeto de um card de perfil profissional desenvolvido com foco em prática de H
 
 ## 📸 Preview
 
-<img width="1080" height="768" alt="image" src="https://github.com/user-attachments/assets/41631967-b29e-44e0-9c19-337420aa9f06" />
-<img width="1080" height="768" alt="image" src="https://github.com/user-attachments/assets/a1acf994-ef7a-471a-b904-da096f6c0ecf" />
+<img width="1080" height="768" alt="image" src=".src/assets/preview/preview-desktop-white.png" />
+<img width="1080" height="768" alt="image" src=".src/assets/preview/preview-mobile-dark.png" />
 
 ---
 
 ## 🌐 Demo
+
 [https://card-perfil-profissional.vercel.app](https://card-perfil-profissional.vercel.app)
 
 ---
@@ -27,13 +28,14 @@ Projeto de um card de perfil profissional desenvolvido com foco em prática de H
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML5  
-- CSS3 (Flexbox, variáveis CSS)  
-- JavaScript (DOM, eventos, classList)  
+- HTML5
+- CSS3 (Flexbox, variáveis CSS)
+- JavaScript (DOM, eventos, classList)
 
 ---
 
 ## 📂 Estrutura do projeto
+
 ```text
 card-perfil-profissional/
 │
@@ -56,6 +58,7 @@ card-perfil-profissional/
 │ └── main.js
 
 ```
+
 ---
 
 ## 🎨 Temas
@@ -97,10 +100,11 @@ O projeto foi desenvolvido com abordagem **Mobile First**, adaptando-se para:
 
 ## 🔗 Links
 
-- 💼 LinkedIn: https://www.linkedin.com/in/alexsander-galvao/  
-- 💻 GitHub: https://github.com/AlexsanderGS  
+- 💼 LinkedIn: https://www.linkedin.com/in/alexsander-galvao/
+- 💻 GitHub: https://github.com/AlexsanderGS
 
 ---
+
 ## 👨‍💻 Autor
 
 Desenvolvido por Alexsander Galvão
